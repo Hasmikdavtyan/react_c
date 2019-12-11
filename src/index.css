@@ -1,0 +1,31 @@
+*{
+    background-color: aqua;
+   
+}
+
+main{
+     height: 50%;
+    width: 30%;
+    margin: 0 auto;
+    background-color: aquamarine;
+
+    box-shadow: 10px 10px 5px aquamarine;
+
+   
+}
+.AppStyle{
+  border: 3px solid aquamarine;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 120px;
+  background-color: aqua;
+  
+  padding: 50px;
+}
+
+
+.AppStyle h1{
+font-weight: 500;
+margin-left: 40px;
+}
+

@@ -1,0 +1,25 @@
+li{
+   list-style-type: none; 
+    width: 100%;
+   margin-top:15px;
+   margin-right:15px;
+   padding: 5px;
+   box-shadow: 10px 10px 5px rgb(136, 121, 121);
+}
+li i{
+    margin-right:15px ;
+    
+
+    
+}
+
+Li i:hover{
+    padding: 10px;
+    background-color: aquamarine;
+    cursor:pointer;
+}
+
+li span{
+    font-size: 20px;
+    text-align: center;
+}
