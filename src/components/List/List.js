@@ -1,20 +1,29 @@
 import React from "react";
-import LiItem from "./../../components/ListItem/LiItem1";
-import LiItem2 from "./../../components/ListItem/LiItems2";
-import LiItem3 from "./../../components/ListItem/LiItem3";
+import ListItem from "./../../components/ListItem/ListItem";
 import './../List/List.css'
 
 
 
 
-const List = () =>{
+const List = ({listData}) =>{ 
+  /*    let x ='';
+    for (const data of listData){
+        console.log(data);      sxal tarberak
+        < LiItem  items={data}/>
+
+    }*/
+
+    const ListitemData = listData.map((d) => {
+        return <ListItem  item={d} key ={d.id}/>
+    }
+
+    )
+
     return (
         <div className="Listblok">
             <h3 className="text-white text-center">Lists</h3>
             <ul>
-                < LiItem />
-                <LiItem2 />
-                <LiItem3 />
+             { ListitemData}
 
             </ul>
         </div>
